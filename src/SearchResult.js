@@ -17,7 +17,7 @@ function SearchResult({ img, location, title, description, star, price, total })
                 </div>
 
                 <div className="searchResult__infoBottom">
-                    <div className="searchResult__star">
+                    <div className="searchResult__stars">
                         <StarIcon className="searchResult__star" />
                         <p><strong>{star}</strong></p>
                     </div>
